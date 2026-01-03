@@ -6,3 +6,8 @@ drwxr-xr-x 1 ravib 197121   0 Jan  2 15:40  git/
 drwxr-xr-x 1 ravib 197121   0 Dec 31 12:35  MySQL/
 drwxr-xr-x 1 ravib 197121   0 Jan  2 16:07 'Pro Coder'/
 -rw-r--r-- 1 ravib 197121  33 Dec 31 12:42  README.md
+
+
+<!-- **********both are same ************ -->
+clear
+ctl+l -> clear the screen in bash

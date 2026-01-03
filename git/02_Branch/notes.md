@@ -23,3 +23,13 @@ firstly move to branch where you want to merge then type that branch name you wa
 7: git merge "branch-name"
 8: git branch -d "name"
 
+<!-- ****************** -->
+when you make a copy and working on a new branch , but main branch is not changed then during the merging there is no conflict arises.
+
+but when the work is also going on main branch then during mergin that time you will get a merge conflict. (so resolve manually)
+
+
+<!-- ****************** -->
+Best practice use git fetch : it let you know what changes done in remote and you want to compare them
+1: git fetch
+2: git pull = git fetch + git merge

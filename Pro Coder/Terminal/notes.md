@@ -1,6 +1,9 @@
 start "application name" -> open any app through terminal
 
+<!-- ************************ -->
+can i say terminal like browser and different -different shell like cmd , powershell , git bash, azure shell like different type of browser edge,chrome,safari
 <!-- ******************** -->
+
 explorer . -> open that current file directory into the file explorer
 <!-- **************** cmd  ******************* -->
 
