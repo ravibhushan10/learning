@@ -4,7 +4,6 @@ It is recomended that don't change (rewrite) the history of git if you already p
 If you don't pushed the code into the github,then use the revert(rewrite) the history
 It has three mode :
 
-
 (hard also delete the all commit between your starting and actual commit id you want to go )
 
 1: hard (it delete the commit history and also delete from the working directory and staging area)
@@ -16,8 +15,6 @@ git reset --soft "commit id"
 3: mixed (delete commit history , present in working directory, present in modify)
 git reset "commit id"
 git reset --mixed "commit id"  (both are same)
-
-
 
 <!-- ********When your code pushed to remote (revert)******!-->
 Revert: it create the new commit with modified version keeping the old commit.
@@ -35,4 +32,4 @@ git revert --no-commit head~3..head~0  -> all three changes put into the staging
 
 then you have two option: abort and continue
 git revert --abort -> if you want all things are normal don't want any change
-git revert --continue  -> all three revert done and created one single commit 
+git revert --continue  -> all three revert done and created one single commit
