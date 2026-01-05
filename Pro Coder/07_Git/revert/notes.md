@@ -1,6 +1,6 @@
 It is recomended that don't change (rewrite) the history of git if you already pushed the code into the github, but in your own local repo you can change the history and rewrite the commit.
 
-<!-- ********When your code in local (reset)******!-->
+<!-- ******************** -->
 If you don't pushed the code into the github,then use the revert(rewrite) the history
 It has three mode :
 
@@ -16,13 +16,6 @@ git reset --soft "commit id"
 3: mixed (delete commit history , present in working directory, present in modify)
 git reset "commit id"
 git reset --mixed "commit id"  (both are same)
-
-
-
-if you want to recover the delete code from the reset --hard use : git reflog (it shows the all commit history)
-
-pick the commit id you want to recover then ;
-git reset --hard "commit id"
 
 
 
