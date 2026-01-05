@@ -22,11 +22,4 @@ git checkout <commit hash> -> you reach to the code looks like that time(still y
 changing area : it is also called as a working area/directory (when we add . then it goes to staging area)
 staging area : where i do the verification that whatever i changed is correct then we proceed for the commit
 
-<!-- ********************** -->
-git log ->  shows the all commit on the current branch
-git log --all ->  it shows the all comits of all branch
 
-<!-- ************** for oneline commit use --oneline ******** -->
-git log --oneline
-git log --all --oneline
-<!-- *************** -->
