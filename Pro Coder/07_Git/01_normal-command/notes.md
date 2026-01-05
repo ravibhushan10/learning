@@ -14,3 +14,5 @@ git checkout <commit hash> -> you reach to the code looks like that time(still y
 -> it is just used to see the old code like (old photo)
 
 <!-- *************** -->
+changing area : it is also called as a working area/directory (when we add . then it goes to staging area)
+staging area : where i do the verification that whatever i changed is correct then we proceed for the commit
