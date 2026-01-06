@@ -8,3 +8,11 @@ git stash -m "our work is pending"
 <!-- ******************* -->
 to see all stash work : git stash list
 
+tash@{0}: WIP on main: 6b0738e merge
+tash@{1} WIP on main: 6b0738e merge
+<!-- ****************** -->
+to apply the stash work : git stash apply "index"   (like 0,1,2)
+to apply all stash work : git stash apply 
+<!-- ****************** -->
+after apply the stash if delete the stash : git stash drop "index"
+for all stash delete : git stach clear
