@@ -14,6 +14,5 @@ This repository contains all my learning resources and hands-on materials for:
 - **React** - Modern frontend library
 - **Node.js** - Server-side JavaScript runtime
 - **Next.js** - React framework for production
-
-
+- **OS** - Operating system in detail with practical
 
