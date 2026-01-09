@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///D:/ravib/PRO/next.js/section-01/02_route_-groups/app/not-found.js"],"sourcesContent":["export default function () {\n  return (\n    <>\n      <h1>Page not found!</h1>\n      <p>Could not found the page you are looking for.</p>\n    </>\n  );\n}\n"],"names":[],"mappings":";;;;;;AAAe;IACb,qBACE;;0BACE,8OAAC;0BAAG;;;;;;0BACJ,8OAAC;0BAAE;;;;;;;;AAGT","debugId":null}}]
+}

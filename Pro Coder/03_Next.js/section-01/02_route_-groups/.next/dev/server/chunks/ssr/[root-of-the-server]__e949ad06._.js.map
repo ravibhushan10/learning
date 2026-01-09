@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 22, "column": 0}, "map": {"version":3,"sources":["file:///D:/ravib/PRO/next.js/section-01/02_route_-groups/app/%28application%29/page.js"],"sourcesContent":["import Link from \"next/link\";\n\nexport default function Home() {\n  return (\n    <>\n      <h1>Technical Agency</h1>\n      <p>\n        <Link href=\"/blogs\">Blogs</Link>\n      </p>{\" \"}\n      <p>\n        <Link href=\"/about\">About</Link>\n      </p>{\" \"}\n      <p>\n        <Link href=\"/services\">Services</Link>\n      </p>\n      <p>\n        <Link href=\"/files\">Files</Link>\n      </p>\n    </>\n  );\n}\n"],"names":[],"mappings":";;;;;AAAA;;;AAEe,SAAS;IACtB,qBACE;;0BACE,8OAAC;0BAAG;;;;;;0BACJ,8OAAC;0BACC,cAAA,8OAAC,0LAAI;oBAAC,MAAK;8BAAS;;;;;;;;;;;YACjB;0BACL,8OAAC;0BACC,cAAA,8OAAC,0LAAI;oBAAC,MAAK;8BAAS;;;;;;;;;;;YACjB;0BACL,8OAAC;0BACC,cAAA,8OAAC,0LAAI;oBAAC,MAAK;8BAAY;;;;;;;;;;;0BAEzB,8OAAC;0BACC,cAAA,8OAAC,0LAAI;oBAAC,MAAK;8BAAS;;;;;;;;;;;;;AAI5B","debugId":null}}]
+}

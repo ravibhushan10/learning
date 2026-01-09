@@ -1,0 +1,10 @@
+{
+  "/(application)/blogs/[blogID]/page": "app/(application)/blogs/[blogID]/page.js",
+  "/(application)/blogs/page": "app/(application)/blogs/page.js",
+  "/(application)/page": "app/(application)/page.js",
+  "/(marketing)/about/page": "app/(marketing)/about/page.js",
+  "/(marketing)/services/page": "app/(marketing)/services/page.js",
+  "/(marketing)/services/web-dev/page": "app/(marketing)/services/web-dev/page.js",
+  "/_not-found/page": "app/_not-found/page.js",
+  "/page": "app/page.js"
+}

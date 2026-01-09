@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 26, "column": 0}, "map": {"version":3,"sources":["file:///D:/ravib/PRO/next.js/section-01/02_route_-groups/app/%28marketing%29/services/page.js"],"sourcesContent":["import Link from \"next/link\";\n\nexport const metadata = {\n  title: \"Services\",\n};\n\nexport default function Services() {\n  return (\n    <>\n      <h1>All Services</h1>\n      <p>\n        <Link href=\"/services/web-dev\">Web Development</Link>\n      </p>\n      <p>\n        <Link href=\"/services/seo\">SEO</Link>\n      </p>\n    </>\n  );\n}\n"],"names":[],"mappings":";;;;;;;AAAA;;;AAEO,MAAM,WAAW;IACtB,OAAO;AACT;AAEe,SAAS;IACtB,qBACE;;0BACE,8OAAC;0BAAG;;;;;;0BACJ,8OAAC;0BACC,cAAA,8OAAC,0LAAI;oBAAC,MAAK;8BAAoB;;;;;;;;;;;0BAEjC,8OAAC;0BACC,cAAA,8OAAC,0LAAI;oBAAC,MAAK;8BAAgB;;;;;;;;;;;;;AAInC","debugId":null}}]
+}

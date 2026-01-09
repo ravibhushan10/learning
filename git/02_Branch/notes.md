@@ -29,6 +29,9 @@ when you make a copy and working on a new branch , but main branch is not change
 but when the work is also going on main branch then during mergin that time you will get a merge conflict. (so resolve manually)
 
 
+
+
+
 <!-- ****************** -->
 Best practice use git fetch : it let you know what changes done in remote and you want to compare them
 1: git fetch

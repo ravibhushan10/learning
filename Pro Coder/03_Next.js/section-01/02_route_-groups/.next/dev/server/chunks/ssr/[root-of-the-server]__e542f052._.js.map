@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 22, "column": 0}, "map": {"version":3,"sources":["file:///D:/ravib/PRO/next.js/section-01/02_route_-groups/app/%28application%29/blogs/%5BblogID%5D/page.js"],"sourcesContent":["import { notFound } from \"next/navigation\";\n\nexport async function generateMetadata({ params }) {\n  const { blogID } = await params;\n  return {\n    title: `Blog ${blogID}`,\n  };\n}\n\n// check the input URL is number or anything\n// /^\\d+$/  : regular expression(it gives you true or false)\nexport default async function Blog({ params }) {\n  const { blogID } = await params;\n  if (!/^\\d+$/.test(blogID)) {\n    notFound();\n  }\n  return <div>Blog {blogID}</div>;\n}\n"],"names":[],"mappings":";;;;;;;AAAA;AAAA;;;AAEO,eAAe,iBAAiB,EAAE,MAAM,EAAE;IAC/C,MAAM,EAAE,MAAM,EAAE,GAAG,MAAM;IACzB,OAAO;QACL,OAAO,CAAC,KAAK,EAAE,QAAQ;IACzB;AACF;AAIe,eAAe,KAAK,EAAE,MAAM,EAAE;IAC3C,MAAM,EAAE,MAAM,EAAE,GAAG,MAAM;IACzB,IAAI,CAAC,QAAQ,IAAI,CAAC,SAAS;QACzB,IAAA,iMAAQ;IACV;IACA,qBAAO,8OAAC;;YAAI;YAAM;;;;;;;AACpB","debugId":null}}]
+}

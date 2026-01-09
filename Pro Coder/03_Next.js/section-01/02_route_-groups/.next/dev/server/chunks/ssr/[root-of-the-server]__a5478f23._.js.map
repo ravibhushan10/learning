@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 18, "column": 0}, "map": {"version":3,"sources":["file:///D:/ravib/PRO/next.js/section-01/02_route_-groups/app/marketing/about/page.js"],"sourcesContent":["import Link from \"next/link\";\n\nexport const metadata = {\n  title: \"About\",\n};\n\nexport default function About() {\n  return (\n    <>\n      <h1>About Page</h1>\n      <Link href=\"/\">Home</Link>\n    </>\n  );\n}\n"],"names":[],"mappings":";;;;;;;AAAA;;;AAEO,MAAM,WAAW;IACtB,OAAO;AACT;AAEe,SAAS;IACtB,qBACE;;0BACE,8OAAC;0BAAG;;;;;;0BACJ,8OAAC,0LAAI;gBAAC,MAAK;0BAAI;;;;;;;;AAGrB","debugId":null}}]
+}

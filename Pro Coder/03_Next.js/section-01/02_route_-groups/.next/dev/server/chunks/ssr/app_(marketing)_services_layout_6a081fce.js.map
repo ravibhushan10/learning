@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///D:/ravib/PRO/next.js/section-01/02_route_-groups/app/%28marketing%29/services/layout.js"],"sourcesContent":["export default function ServicesLayout({ children }) {\n  return (\n    <main>\n      <section>\n        <h3>Services Layout</h3>\n        {children}\n      </section>\n    </main>\n  );\n}\n"],"names":[],"mappings":";;;;;;AAAe,SAAS,eAAe,EAAE,QAAQ,EAAE;IACjD,qBACE,8OAAC;kBACC,cAAA,8OAAC;;8BACC,8OAAC;8BAAG;;;;;;gBACH;;;;;;;;;;;;AAIT","debugId":null}}]
+}

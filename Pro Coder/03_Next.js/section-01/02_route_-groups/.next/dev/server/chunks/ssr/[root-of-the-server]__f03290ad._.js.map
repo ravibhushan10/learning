@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 18, "column": 0}, "map": {"version":3,"sources":["file:///D:/ravib/PRO/next.js/section-01/02_route_-groups/app/%28application%29/blogs/page.js"],"sourcesContent":["export const metadata = {\n  title: \"Blogs\",\n};\n\nexport default async function Blogs() {\n  return (\n    <>\n      <h1>All Blogs</h1>\n      <p>Blog 1</p>\n      <p>Blog 2</p>\n      <p>Blog 3</p>\n    </>\n  );\n}\n"],"names":[],"mappings":";;;;;;;;AAAO,MAAM,WAAW;IACtB,OAAO;AACT;AAEe,eAAe;IAC5B,qBACE;;0BACE,8OAAC;0BAAG;;;;;;0BACJ,8OAAC;0BAAE;;;;;;0BACH,8OAAC;0BAAE;;;;;;0BACH,8OAAC;0BAAE;;;;;;;;AAGT","debugId":null}}]
+}
