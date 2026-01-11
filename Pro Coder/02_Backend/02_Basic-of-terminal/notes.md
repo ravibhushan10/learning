@@ -1,7 +1,7 @@
 start "application name" -> open any app through terminal
 
 which "node" -> it gives you the exact path of that package
-which "git" -> similar 
+which "git" -> similar
 
 <!-- ************************ -->
 can i say terminal like browser and different -different shell like cmd , powershell , git bash, azure shell like different type of browser edge,chrome,safari
@@ -10,10 +10,13 @@ can i say terminal like browser and different -different shell like cmd , powers
 explorer . -> open that current file directory into the file explorer
 <!-- **************** cmd  ******************* -->
 
+history -> get the all previous command run
+
 cd /d -> go to d drive
 cd /c -> go to c drive
 
 cd / -> go to root directory
+cd ~ -> go to home directory
 explorer . -> open file explorer
 <!-- **************** cmd  ******************* -->
 ls/dir-> to show all folder in the dirctory
